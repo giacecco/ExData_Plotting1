@@ -1,5 +1,7 @@
 # Plot 4
 
+source("load_the_data.R")
+
 png("plot4.png", width = 480, height = 480)
 par(mfrow = c(2, 2))
 

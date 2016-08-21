@@ -1,5 +1,7 @@
 # Plot 3
 
+source("load_the_data.R")
+
 png("plot3.png", width = 480, height = 480)
 plot(
     df$Timestamp,
